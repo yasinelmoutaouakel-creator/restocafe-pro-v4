@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { LogIn, Lock, User, Coffee } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../../contexts/AuthContext.jsx';
 
 const LoginView = () => {
   const [username, setUsername] = useState('');

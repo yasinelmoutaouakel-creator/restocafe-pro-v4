@@ -41,3 +41,6 @@ dist-ssr
 
 # Windows
 Thumbs.db
+
+.vercel
+.env*.local
